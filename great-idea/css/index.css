@@ -152,9 +152,9 @@ h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 @import url("https://fonts.googleapis.com/css?family=Ibarra+Real+Nova&display=swap");
 /* header styles goes here */
-* {
+/* * {
   border: 2px solid red;
-}
+} */
 
 .nav-bar {
   background-color: rgb(25, 142, 252);
@@ -213,30 +213,54 @@ h1 {
   border-bottom: 5px black solid;
   margin: 0 5%;
   display: flex;
-
-#features {
-}
-#about {
+  flex-direction: column;
+  justify-content: space-around;
 }
 
-.container img {
+.first-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2%;
 }
 
-#services {
+.features {
+  width: 42%;
 }
 
-#product {
+.about {
+  width: 42%;
 }
 
-#vision {
+#second-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+}
+
+.services {
+  width: 30%;
+}
+
+.product {
+  width: 30%;
+}
+
+.vision {
+  width: 30%;
 }
 
 /* footer style goes here */
 footer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
 }
 
 .phone {
+  margin: 2% 0;
 }
 
 .copy {
+  text-align: center;
+  margin-bottom: 2%;
 }
