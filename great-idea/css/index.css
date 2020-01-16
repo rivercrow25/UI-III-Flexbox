@@ -281,4 +281,22 @@ h1 {
 
 .services-1 {
   display: flex;
+  margin-top: 1%;
+  border-top: 2px solid black;
+  margin-left: 9%;
+  margin-right: 9%;
 }
+
+.services-2 {
+  display: flex;
+  margin-left: 9%;
+  margin-right: 9%;
+}
+
+.services-3 {
+  display: flex;
+  border-bottom: 2px solid black;
+  margin-left: 9%;
+  margin-right: 9%;
+}
+
