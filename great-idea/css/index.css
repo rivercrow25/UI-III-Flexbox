@@ -109,9 +109,9 @@ body {
   line-height: 1;
 }
 ol,
-ul {
+/* ul {
   list-style: none;
-}
+} */
 blockquote,
 q {
   quotes: none;
@@ -136,6 +136,7 @@ table {
 html,
 body {
   height: 100%;
+  max-width: 100%;
   font-family: "Titillium Web", sans-serif;
 }
 
@@ -248,7 +249,7 @@ h1 {
 }
 
 /* footer style goes here */
-footer {
+.index {
   display: flex;
   flex-direction: column;
   margin-left: 5%;
@@ -278,25 +279,101 @@ h1 {
   display: flex;
   margin-left: 9%;
 }
-
-.services-1 {
-  display: flex;
-  margin-top: 1%;
-  border-top: 2px solid black;
-  margin-left: 9%;
-  margin-right: 9%;
-}
-
-.services-2 {
-  display: flex;
-  margin-left: 9%;
-  margin-right: 9%;
-}
-
-.services-3 {
-  display: flex;
+header p{
   border-bottom: 2px solid black;
   margin-left: 9%;
   margin-right: 9%;
+  padding-bottom: 2%;
+}
+
+.services-1{
+  display: flex;
+  margin-left: 9%;
+  margin-right: 9%;
+  padding-top: 2%;
+}
+
+.digital{
+  margin-right: 50%;
+  background-color: rgb(209, 204, 204);
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ui{
+  background-color: rgb(209, 204, 204);
+  padding: 2%;
+}
+
+
+.services-2{
+  display: flex;
+  margin: 5% 9%;
+}
+
+.market{
+  margin-right: 50%;
+  background-color: rgb(209, 204, 204);
+  padding: 2%;
+}
+
+.web{
+  background-color: rgb(209, 204, 204);
+  padding: 2%;
+}
+
+.services-3{
+  display: flex;
+  margin: 0 9%;
+  border-bottom: 2px solid black;
+  padding-bottom: 2%;
+}
+
+.ios{
+  margin-right: 50%;
+  padding-bottom: 2%;
+  background-color: rgb(209, 204, 204);
+  padding: 2%;
+}
+
+.android{
+  background-color: rgb(209, 204, 204);
+  padding: 2%;
+}
+
+.service-footer{
+  display: flex;
+  margin: 3% 0;
+}
+
+.services-4{
+  width: 30%;
+  margin-left: 9%;
+  margin-right: 25.5%;
+}
+
+ul{
+  margin-top: 7%;
+}
+
+.awsome{
+  margin: 6.5% 0;
+}
+
+.amazing{
+  margin: 6.5% 0;
+}
+
+.cool{
+  margin: 6.5% 0;
+}
+
+.btn{
+  text-decoration: none;
+  color: black;
+  margin-left: 25.5%;
+  background-color: rgb(207, 207, 207);
 }
 
